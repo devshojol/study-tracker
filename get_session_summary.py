@@ -12,7 +12,7 @@ def get_session_summary():
     average_minutes = int(average_time) % 60
 
 
-    print(" ===== STUDY SUMMARY =====")
+    print(" ===== STUDY SUMMARY =====\n")
     print(f"Total study sessions: {total_sessions}")
     print(f"Total study time: {total_hours} hours {total_minutes} minutes")
     print(f"Average session: {average_hours} hours {average_minutes} minutes")
